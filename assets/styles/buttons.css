@@ -1,0 +1,21 @@
+.botao{
+    padding: .7rem 1.2rem;
+    min-width: 200px;
+    max-width: 200px;
+    background: var(--cl-secundaria);
+    font-family: var(--ft-primaria);
+    color: var(--cl-primaria);
+    font-weight: 500;
+    font-size: 1.25rem;
+    border: solid var(--cl-primaria);
+    box-shadow: .3rem .3rem 0 0px var(--cl-primaria);
+}
+
+.botao-maior{
+    padding: .7rem 1rem;
+    max-width: 225px;
+}
+
+.botao:hover{
+    background: var(--cl-terciaria);
+}

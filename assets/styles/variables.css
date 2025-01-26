@@ -1,0 +1,8 @@
+:root{
+    --cl-primaria: #000000;
+    --cl-secundaria: #ED4D1B;
+    --cl-terciaria: #FF9A3C;
+    --color-background: linear-gradient(90deg, rgba(255,231,209,1) 0%, rgba(255,242,229,1) 100%);
+
+    --ft-primaria: "Roboto", serif;
+}

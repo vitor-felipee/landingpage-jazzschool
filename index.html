@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>TOM’S</title>
+    <link rel="shortcut icon" type="image/svg" href="assets/img/logo.svg"/>
+
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="assets/img/logo.svg" alt="Logo da empresa Tom's Jazz School">
+        <nav class="header__navegacao">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#hero">Início</a></li>
+                <li class="header__menu-item"><a href="#cursos">Cursos</a></li>
+                <li class="header__menu-item"><a href="#eventos">Eventos</a></li>
+                <li class="header__menu-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="botao">SE INSCREVA</button>
+    </header>    
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__conteudo">
+                <h1 class="hero__titulo">
+                    Crie algo <strong class="texto-destaque">impactante</strong> 
+                    <span aria-hidden="true">
+                        <img class="hero__icone" src="assets/img/three-dashes.svg" alt="" role="presentation">
+                    </span>
+                    com música
+                </h1>
+                <p class="hero__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, possimus! Debitis iste dicta culpa dolor asperiores fuga obcaecati alias totam.</p>
+                <button class="botao">COMECE AGORA</button>
+                <img class="hero__decoracao" src="assets/img/arrow-curve.svg" alt="">
+            </div>
+            <img class="hero__imagem" src="assets/img/hero-img.svg" alt="Desenho de uma Big Band tocando">
+        </section>
+        
+        
+        <section id="cursos" class="section-cursos">
+            <div class="cursos-cards">
+                <div class="curso-card curso-card--escuro">
+                    <img class="curso-card__imagem" src="assets/img/piano.png" alt="Imagem de um piano">
+                    <h2 class="curso-card__titulo">Piano popular</h2>
+                    <p class="curso-card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur adipiscing elit.</p>
+                    <a href="#" class="curso-card__link" aria-label="Saiba mais sobre o curso de Piano Popular">
+                        <img class="curso-card__icone" src="assets/img/arrow-right.svg" alt="" role="presentation">
+                    </a>
+                </div>
+                <div class="curso-card curso-card--claro">
+                    <img class="curso-card__imagem" src="assets/img/clef.png" alt="Imagem de uma clave de sol">
+                    <h2 class="curso-card__titulo">Teoria Musical</h2>
+                    <p class="curso-card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur adipiscing elit.</p>
+                    <a href="#" class="curso-card__link" aria-label="Saiba mais sobre o curso de Teoria Musical">
+                        <img class="curso-card__icone" src="assets/img/arrow-right.svg" alt="" role="presentation">
+                    </a>
+                </div>
+                <div class="curso-card curso-card--escuro">
+                    <img class="curso-card__imagem" src="assets/img/sax.png" alt="Imagem de um saxofone alto">
+                    <h2 class="curso-card__titulo">Sax Alto</h2>
+                    <p class="curso-card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur adipiscing elit.</p>
+                    <a href="#" class="curso-card__link" aria-label="Saiba mais sobre o curso de Sax Alto">
+                        <img class="curso-card__icone" src="assets/img/arrow-right.svg" alt="" role="presentation">
+                    </a>
+                </div>
+                <div class="curso-card curso-card--claro">
+                    <img class="curso-card__imagem" src="assets/img/drums.png" alt="Imagem de uma bateria">
+                    <h2 class="curso-card__titulo">Bateria</h2>
+                    <p class="curso-card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur adipiscing elit.</p>
+                    <a href="#" class="curso-card__link" aria-label="Saiba mais sobre o curso de Bateria">
+                        <img class="curso-card__icone" src="assets/img/arrow-right.svg" alt="" role="presentation">
+                    </a>
+                </div>
+            </div>
+            <div class="cursos-outros">
+                <h2 class="cursos-outros__texto">E <strong class="texto-destaque">vários</strong> outros!</h2>
+                <button class="botao botao-maior">CONHECER CURSOS</button>
+            </div>
+        </section>        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-conteudo">
+            <img class="footer__logo" src="assets/img/logo.svg" alt="Logo da empresa Tom's Jazz School">
+            <p class="footer__descricao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt veritatis aperiam eius dolores necessitatibus natus id possimus, sint aut hic explicabo.
+            </p>
+        </div>
+        <nav class="footer__navegacao">
+            <ul class="footer__menu">
+                <li class="footer__menu-item"><a href="#hero">Início</a></li>
+                <li class="footer__menu-item"><a href="#cursos">Cursos</a></li>
+                <li class="footer__menu-item"><a href="#eventos">Eventos</a></li>
+                <li class="footer__menu-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="contato" class="footer__newsletter">
+            <h2 class="footer__newsletter-titulo">Receba materiais gratuitos no seu email</h2>
+                <form class="footer__newsletter-form">
+                    <input type="email" class="footer__newsletter-input" required>
+                    <button class="botao" type="submit">QUERO RECEBER</button>
+                </form>
+        </div>
+    </footer>   
+</body>
+</html>
