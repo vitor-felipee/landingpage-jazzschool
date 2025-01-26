@@ -17,5 +17,6 @@
 }
 
 .botao:hover{
+    transition: 0.5s;
     background: var(--cl-terciaria);
 }
